@@ -35,7 +35,7 @@ export default {
 
         console.log(response.data.message) // Success message from the server
       } catch (error) {
-        console.error(error.message) // Error message
+        console.error(error.message)
       }
     }
   }
