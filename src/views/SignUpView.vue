@@ -1,15 +1,11 @@
-<script setup></script>
-
 <template>
-  <div class="home">
-    <h1>Welcome</h1>
+  <div class="signup">
+    <h1>SignUp</h1>
   </div>
 </template>
 
-<script></script>
-
 <style scoped>
-.home {
+.signup {
   display: flex;
   flex-direction: column;
   justify-content: center;
