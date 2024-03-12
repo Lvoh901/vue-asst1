@@ -1,9 +1,9 @@
 <template>
   <div class="nav">
     <RouterLink class="nav-item" to="/">Home</RouterLink>
-    <RouterLink class="nav-item" to="/about">About</RouterLink>
     <RouterLink class="nav-item" to="/login">Login</RouterLink>
     <RouterLink class="nav-item" to="/signup">SignUp</RouterLink>
+    <RouterLink class="nav-item" to="/reset">Password Reset</RouterLink>
   </div>
 
   <router-view></router-view>

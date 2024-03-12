@@ -1,11 +1,11 @@
 <template>
-  <div class="about">
-    <h1>About Page</h1>
+  <div class="reset">
+    <h1>Reset Your Password</h1>
   </div>
 </template>
 
 <style scoped>
-.about {
+.reset {
   display: flex;
   flex-direction: column;
   justify-content: center;
