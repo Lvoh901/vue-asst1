@@ -26,7 +26,7 @@ export default {
   methods: {
     async login() {
       try {
-        const response = await axios.post('http://localhost:4000/reset-password', {
+        const response = await axios.post('http://localhost:4002/reset-password', {
           username: this.email
         })
 

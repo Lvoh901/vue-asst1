@@ -28,9 +28,9 @@ export default {
     }
   },
   methods: {
-    async login() {
+    async signup() {
       try {
-        const response = await axios.post('http://localhost:4000/signup', {
+        const response = await axios.post('http://localhost:4002/signup', {
           username: this.username,
           email: this.email,
           password: this.password
