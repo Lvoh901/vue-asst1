@@ -1,6 +1,6 @@
 <template>
   <div class="signup">
-    <form class="form" @submit.prevent="login">
+    <form class="form" @submit.prevent="signup">
       <h1>Join Us</h1>
       <input type="text" v-model="username" placeholder="username" />
       <input type="email" v-model="email" placeholder="email" />
