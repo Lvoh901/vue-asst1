@@ -24,7 +24,7 @@ export default {
     }
   },
   methods: {
-    async login() {
+    async reset() {
       try {
         const response = await axios.post('http://localhost:4002/reset-password', {
           username: this.email
