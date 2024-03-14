@@ -3,7 +3,7 @@
     <form class="form" @submit.prevent="signup">
       <h1>Join Us</h1>
       <input type="text" v-model="username" placeholder="username" />
-      <input type="email" v-model="email" placeholder="email" />
+      <input type="text" v-model="email" placeholder="email" />
       <input type="password" v-model="password" placeholder="password" />
       <p>Forgot Password?<a href="/reset">Reset</a></p>
 
